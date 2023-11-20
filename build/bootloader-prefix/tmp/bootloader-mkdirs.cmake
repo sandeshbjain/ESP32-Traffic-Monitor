@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "C:/Users/sande/esp/esp-idf/components/bootloader/subproject"
-  "C:/Users/sande/ECE591/Final_Project/build/bootloader"
-  "C:/Users/sande/ECE591/Final_Project/build/bootloader-prefix"
-  "C:/Users/sande/ECE591/Final_Project/build/bootloader-prefix/tmp"
-  "C:/Users/sande/ECE591/Final_Project/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/sande/ECE591/Final_Project/build/bootloader-prefix/src"
-  "C:/Users/sande/ECE591/Final_Project/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/sande/ECE591/Updated_Final/ESP32-Traffic-Monitor/build/bootloader"
+  "C:/Users/sande/ECE591/Updated_Final/ESP32-Traffic-Monitor/build/bootloader-prefix"
+  "C:/Users/sande/ECE591/Updated_Final/ESP32-Traffic-Monitor/build/bootloader-prefix/tmp"
+  "C:/Users/sande/ECE591/Updated_Final/ESP32-Traffic-Monitor/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/sande/ECE591/Updated_Final/ESP32-Traffic-Monitor/build/bootloader-prefix/src"
+  "C:/Users/sande/ECE591/Updated_Final/ESP32-Traffic-Monitor/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/sande/ECE591/Final_Project/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/sande/ECE591/Updated_Final/ESP32-Traffic-Monitor/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/sande/ECE591/Final_Project/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/sande/ECE591/Updated_Final/ESP32-Traffic-Monitor/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

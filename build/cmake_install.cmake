@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/sande/ECE591/Final_Project
+# Install script for directory: C:/Users/sande/ECE591/Updated_Final/ESP32-Traffic-Monitor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/sande/ECE591/Final_Project/build/esp-idf/cmake_install.cmake")
+  include("C:/Users/sande/ECE591/Updated_Final/ESP32-Traffic-Monitor/build/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/sande/ECE591/Final_Project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/sande/ECE591/Updated_Final/ESP32-Traffic-Monitor/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

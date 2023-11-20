@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/sande/ECE591/Final_Project/build/bootloader/esp-idf/cmake_install.cmake")
+  include("C:/Users/sande/ECE591/Updated_Final/ESP32-Traffic-Monitor/build/bootloader/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/sande/ECE591/Final_Project/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/sande/ECE591/Updated_Final/ESP32-Traffic-Monitor/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

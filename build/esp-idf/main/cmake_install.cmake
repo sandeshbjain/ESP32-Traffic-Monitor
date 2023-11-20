@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/sande/ECE591/Final_Project/main
+# Install script for directory: C:/Users/sande/ECE591/Updated_Final/ESP32-Traffic-Monitor/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
